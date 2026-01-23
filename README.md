@@ -1,31 +1,34 @@
-A2SV Remote Education - Cohort G7 🚀
+# A2SV Remote Education – Cohort G7 🚀
 
-Fellow: Ephrem Ketachew
+**Fellow:** Ephrem Ketachew  
+**Cohort:** Group 7 (Remote)  
+**Status:** Active *(Jan 2026 – Present)*
 
-Cohort: Group 7 (Remote)
+---
 
-Status: Active [Jan 2026 - Present]
+## 📖 About This Repository
 
-📖 About This Repository
+This repository serves as the **official submission tracker** for the **Africa to Silicon Valley (A2SV) Remote Education Program**.  
+It contains structured solutions to algorithmic problems assigned during the **G7 curriculum**, with a strong focus on:
 
-This repository serves as the official submission tracker for the Africa to Silicon Valley (A2SV) Remote Education Program. It contains structured solutions to algorithmic problems assigned during the G7 curriculum, focusing on:
+### 🧠 Core Topics
+- **Data Structures:** Arrays, Hash Maps, Linked Lists, Trees, Graphs  
+- **Algorithms:** Sorting, Searching, Bit Manipulation, Dynamic Programming  
+- **Platforms:** LeetCode, HackerRank, GeeksforGeeks, Codeforces  
 
-Data Structures: Arrays, Hash Maps, Linked Lists, Trees, Graphs.
+🚧 **Note:** This repository is strictly for **A2SV curriculum tracking**.
 
-Algorithms: Sorting, Searching, Bit Manipulation, Dynamic Programming.
+For my personal archive of **800+ LeetCode solutions**, **11,000+ typing tests**, and advanced problem-solving practice, please visit my main repository:
 
-Platforms: LeetCode, HackerRank, GeeksForGeeks, and Codeforces.
+👉 **[🔗 Link to your Main DSA Repo Here]**
 
-🚧 Note: This repository is strictly for A2SV curriculum tracking.
+---
 
-For my personal archive of 800+ LeetCode solutions, 11,000+ typing tests, and advanced problem-solving, please visit my main repository:
+## 📂 Repository Structure
 
-[🔗 Link to your Main DSA Repo Here]
+The repository is organized by **Phases** and **Weeks** to match the official A2SV training schedule:
 
-📂 Repository Structure
-
-The repository is organized by Phases and Weeks to match the A2SV training schedule:
-
+```text
 /root
 ├── Phase-1
 │   ├── Week-1 (Python Basics & Array Manipulation)
@@ -43,6 +46,7 @@ The repository is organized by Phases and Weeks to match the A2SV training sched
 │   │       └── domino-piling.py
 │   └── Week-2 (Two Pointers & Sliding Window)
 └── README.md
+
 
 🛠 Tech Stack
 
