@@ -1,4 +1,4 @@
-# A2SV Remote Education – Cohort G7 🚀
+# A2SV Remote Education – Cohort G7
 
 **Fellow:** Ephrem Ketachew  
 **Cohort:** Group 7 (Remote)  
@@ -6,12 +6,12 @@
 
 ---
 
-## 📖 About This Repository
+## About This Repository
 
 This repository serves as the **official submission tracker** for the **Africa to Silicon Valley (A2SV) Remote Education Program**.  
 It contains structured solutions to algorithmic problems assigned during the **G7 curriculum**, with a strong focus on:
 
-### 🧠 Core Topics
+### Core Topics
 - **Data Structures:** Arrays, Hash Maps, Linked Lists, Trees, Graphs  
 - **Algorithms:** Sorting, Searching, Bit Manipulation, Dynamic Programming  
 - **Platforms:** LeetCode, HackerRank, GeeksforGeeks, Codeforces  
@@ -20,7 +20,7 @@ It contains structured solutions to algorithmic problems assigned during the **G
 
 For my personal archive of **800+ LeetCode solutions**, **11,000+ typing tests**, and advanced problem-solving practice, please visit my main repository:
 
-👉 **[🔗 Link to your Main DSA Repo Here]**
+👉 **[🔗 https://github.com/ephrem-ketachew/data-structure-and-algorithms]**
 
 ---
 
@@ -46,19 +46,18 @@ The repository is organized by **Phases** and **Weeks** to match the official A2
 │   │       └── domino-piling.py
 │   └── Week-2 (Two Pointers & Sliding Window)
 └── README.md
+```
 
 
 🛠 Tech Stack
 
-Language: Python 3 / TypeScript
+Language: Python 3 / Javascript
 
 Testing: Local Unit Testing & Platform Submission
 
 Focus: Time & Space Complexity Optimization
 
-📬 Connect
-
-## 🚀 Connect with Me
+## 📬 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ephrem-ketachew/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/ephrem-ketachew/)
