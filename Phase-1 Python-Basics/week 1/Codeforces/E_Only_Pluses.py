@@ -50,19 +50,29 @@
 # 100
 # 600
 
-n = int(input())
+# n = int(input())
 
-for i in range(n):
-    a, b, c = map(int, input().split())
+# for i in range(n):
+#     a, b, c = map(int, input().split())
+#     for i in range(5):
+#         if a <= b:
+#             if a <= c:
+#                 a += 1
+#             else:
+#                 c += 1
+#         else:
+#             if b <= c:
+#                 b += 1
+#             else:
+#                 c += 1
+#     print(a * b * c)
+
+t = int(input())
+
+for i in range(t):
+    nums = list(map(int, input().split()))
     for i in range(5):
-        if a <= b:
-            if a <= c:
-                a += 1
-            else:
-                c += 1
-        else:
-            if b <= c:
-                b += 1
-            else:
-                c += 1
-    print(a * b * c)
+        nums.sort()
+        nums[0] += 1
+        
+    print(nums[0] * nums[1] * nums[2])
