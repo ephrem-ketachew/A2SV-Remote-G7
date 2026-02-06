@@ -31,5 +31,13 @@ from typing import List
 
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
-        counter = Counter(nums)
-        return [num for num in counter if counter[num] > 1]
+        # counter = Counter(nums)
+        # return [num for num in counter if counter[num] > 1]
+        
+        ans = []
+        for num in nums:
+            if nums[abs(num) - 1] < 0:
+                ans.append(abs(num))
+            nums[abs(num) - 1] *= -1
+            
+        return ans
