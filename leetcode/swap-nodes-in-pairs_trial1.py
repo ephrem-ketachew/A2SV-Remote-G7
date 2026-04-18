@@ -4,18 +4,12 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:   
-        prev = dummy_head = ListNode(0, head)
-        node = head
-        while node and node.next:
-            next_node = node.next
-            third_node = next_node.next
-
-            node.next = third_node
-            next_node.next = node
-            prev.next = next_node
-            
-            prev = node
-            node = third_node
-            
-        return dummy_head.next
+    def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head or not head.next:
+            return head
+        
+        new_head = head.next
+        head.next = self.swapPairs(new_head.next)
+        new_head.next = head
+        
+        return new_head
